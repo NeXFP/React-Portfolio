@@ -4,12 +4,14 @@ import logo from '../../assets/icons/favicon.png';
 function AboutMe(){
     return (
         <section>
-            <h2 className="flex-center">About Me</h2>
             <div className="flex-center">
-                <img src={logo} alt="icon" style={{ width: "100%"}}/>
+                <h2>About Me</h2>
+            </div>
+            <div className="flex-center">
+                <img src={logo} alt="icon"/>
             </div>
 
-            <div>
+            <div className="text-center">
                 <p>
                     Nice to meet you. My name is Giovanny Cardoso. Many know me as NeXFP.
                     Currently I'm a bootcamp attendee in hopes of becoming a full stack developer,
