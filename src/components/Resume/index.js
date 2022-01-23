@@ -2,7 +2,7 @@ import React from 'react';
 
 function Resume() {
     return (
-        <section>
+        <section id='resume' className='my-5 section'>
             <div>
                 <br /><br />
                 <h2 className="flex-center">Resume</h2>

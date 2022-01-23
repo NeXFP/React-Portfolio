@@ -3,7 +3,7 @@ import logo from '../../assets/icons/favicon.png';
 
 function AboutMe(){
     return (
-        <section>
+        <section id='about-me' className='my-5 section'>
             <div className="flex-center">
                 <h2>About Me</h2>
             </div>

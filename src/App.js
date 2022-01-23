@@ -3,6 +3,8 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume";
 import AboutMe from "./components/AboutMe";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact"
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <main>
         <AboutMe></AboutMe>
         <Resume></Resume>
+        <Portfolio></Portfolio>
+        <Contact></Contact>
       </main>
       <Footer></Footer>
 
