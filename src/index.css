@@ -1,13 +1,13 @@
 main {
   margin: 0 auto;
-  max-width: 90%;
+  
   padding: 50px 30px;
   color:white;
 }
 :root {
-  --primary: #6DC0D5;
+  --primary: #d5796d;
   --secondary: #AF4D98;
-  --tertiary: #8cdfd6;
+  --tertiary: #d8645c;
   
   --light: #fafafa;
   --dark: #000000;
@@ -50,6 +50,69 @@ body {
 
 .white {
   color: white;
+}
+
+.container-div{ 
+  Display: flex;
+  Height: 30vh;
+  Align-Items: center;
+  Justify-Content: center;
+}
+
+.container-divs{ 
+  Display: flex;
+  Align-Items: center;
+  Justify-Content: center;
+}
+
+.layout {
+  position: absolute;
+  top:  50%;
+  left: 53%;
+  transform: translate(-50%, -50%)
+}
+
+.brightness {
+  background-color: black;
+  display: inline-block;
+}
+
+.circles {
+  background-color: black;
+  display: inline-block;
+  border-style: solid;
+  border-radius: 50%;
+  border-color: white;
+  box-shadow:  2px 2px 8px 2px black;
+}
+
+.brightness img:hover {
+  opacity: .5;
+}
+
+.stylish span{
+  text-align: center;
+  text-decoration: underline;
+}
+
+
+.top {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-shadow:  2px 2px 8px 2px white;
+  background-color: black;
+}
+
+.top h2:hover {
+  opacity: .5;
+}
+
+.wish {
+  background-color: #2b2b2b;
+  box-shadow:  2px 2px 8px 2px rgb(20, 20, 20);
 }
 
 h1,

@@ -9,10 +9,13 @@ function Header(props) {
         portfolioSelected, 
         setPortfolioSelected,
         contactSelected, 
-        setContactSelected
+        setContactSelected,
+        homeSelected,
+        setHomeSelected
     } = props
 
     function aboutMe() {
+        setHomeSelected(false)
         setAboutMeSelected(true)
         setResumeSelected(false) 
         setPortfolioSelected(false) 
@@ -20,6 +23,7 @@ function Header(props) {
     }
 
     function resume() {
+        setHomeSelected(false)
         setAboutMeSelected(false)
         setResumeSelected(true) 
         setPortfolioSelected(false) 
@@ -27,6 +31,7 @@ function Header(props) {
     }
 
     function portfolio() {
+        setHomeSelected(false)
         setAboutMeSelected(false)
         setResumeSelected(false) 
         setPortfolioSelected(true) 
@@ -34,10 +39,19 @@ function Header(props) {
     }
 
     function contact() {
+        setHomeSelected(false)
         setAboutMeSelected(false)
         setResumeSelected(false) 
         setPortfolioSelected(false) 
         setContactSelected(true)
+    }
+
+    function home() {
+        setHomeSelected(true)
+        setAboutMeSelected(false)
+        setResumeSelected(false) 
+        setPortfolioSelected(false) 
+        setContactSelected(false)
     }
 
     return (
@@ -47,10 +61,10 @@ function Header(props) {
 
                 <nav id="nav-wrap" className="flex-right">
                     <ul id="nav" className="nav">
-                        <li className="current"><a className="smoothscroll mx-1" href="#home">Home</a></li>
+                        <li className={`${homeSelected && 'navActive'}`}><a className="smoothscroll mx-1" href="#home" onClick={() => home()}>Home</a></li>
                         <li className={`${aboutMeSelected && 'navActive'}`}><a className="smoothscroll mx-1 fonts" href="#about-me" onClick={() => aboutMe()}>About Me</a></li>
                         <li className={`${resumeSelected && 'navActive'}`}><a className="smoothscroll mx-1 fonts" href="#resume" onClick={() => resume()}>Resume</a></li>
-                        <li className={`${portfolioSelected && 'navActive'}`}><a className="smoothscroll mx-1 fonts" href="#portfolio" onClick={() => portfolio()}>My Works</a></li>
+                        <li className={`${portfolioSelected && 'ngitavActive'}`}><a className="smoothscroll mx-1 fonts" href="#portfolio" onClick={() => portfolio()}>My Works</a></li>
                         <li className={`${contactSelected && 'navActive'}`}><a className="smoothscroll mx-1 fonts" href="#contact" onClick={() => contact()}>Contact Me</a></li>
                     </ul>
                 </nav>
