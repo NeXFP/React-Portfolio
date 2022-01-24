@@ -56,22 +56,22 @@ function Contact() {
                 <form id='contact-form' onSubmit={ handleSubmit }>
                     <div className='my-1'>
                         <label for='name'>Name:</label>
-                        <input id='name' defaultValue={ name } onBlur={ handleChange }></input>
+                        <input name ='name' defaultValue={ name } onBlur={ handleChange }></input>
                     </div>
 
                     <div className='my-1'>
                         <label for='email'>Email:</label>
-                        <input id='email' defaultValue={ email } onBlur={ handleChange }></input>
+                        <input name='email' defaultValue={ email } onBlur={ handleChange }></input>
                     </div>
 
                     <div className='my-1'>
                         <label for='phone'>Phone Number:</label>
-                        <input id='phone' defaultValue={ phone } onBlur={ handleChange }></input>
+                        <input name='phone' defaultValue={ phone } onBlur={ handleChange }></input>
                     </div>
 
                     <div className='my-1'>
                         <label for='message'>Message:</label>
-                        <textarea id='message' defaultValue={ message } onBlur={ handleChange }></textarea>
+                        <textarea name='message' defaultValue={ message } onBlur={ handleChange }></textarea>
                     </div>
                     <button type='submit'>Submit</button>
                 </form>

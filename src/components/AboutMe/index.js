@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/icons/favicon.png';
+import logo from '../../assets/icons/personal.png';
 
 function AboutMe(){
     return (
