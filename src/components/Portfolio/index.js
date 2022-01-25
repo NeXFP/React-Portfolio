@@ -8,7 +8,7 @@ function Portfolio() {
                     <header>
                         <center><p>Examples of Works below!</p></center>
                     </header>
-                    <ul>
+                    <ul className='moves'>
                         <div className='brightness'>
                             <span classname="stylish">Horiseon</span>
                             <li>
