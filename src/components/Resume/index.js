@@ -1,4 +1,5 @@
 import React from 'react';
+import ResumePDF from '../../assets/icons/Resume.pdf';
 
 function Resume() {
     return (
@@ -9,6 +10,12 @@ function Resume() {
                 <br />
                 <br />
                 <br />
+
+                <div class='my-2'>
+                    <div className="flex-center">
+                        <p>Download my <a href={ResumePDF} target='_blank' rel='noreferrer noopener' download>Resume Here!</a></p>
+                    </div>
+                </div>
 
                 <div className="flex-center">
                     <h2>Front-end Skills</h2>

@@ -369,11 +369,15 @@ header {
   width: 100%;
   bottom: 0px;
   padding:10px;
-  color:white;
+  
 }
 
 .icons {
   font-size: 20px;
+}
+
+.icon {
+  color: white;
 }
 
 .flex-right {
