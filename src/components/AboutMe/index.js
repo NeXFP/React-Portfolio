@@ -27,7 +27,6 @@ function AboutMe() {
                     bachelor's of science program at Rowan University with a graduating GPA of a 3.2.
                     With the help of this program, I would like to be on the path of becoming a UI or UX
                     designer.
-
                 </p>
             </div>
         </section>

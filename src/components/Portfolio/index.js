@@ -11,11 +11,12 @@ function Portfolio() {
                     </header>
                     <ul className='moves'>
                         <div className='brightness'>
-                            <span classname="stylish">Horiseon</span>
+                            <span classname="stylish">
+                                <a href='https://github.com/ManoLo2ManoLo/WeirdNJobs' target="_blank" rel="noreferrer">WeirdNJobs</a>
+                            </span>
                             <li>
-                                <a href="https://nexfp.github.io/HoriseonSolutionServices/" target="_blank" rel="noreferrer">
-
-                                    <img src="https://i.imgur.com/ypvxXzL.png" alt="Example of Horiseon website work challenge" className="circles"
+                                <a href="https://three-headed-goats-weirdnjobs.herokuapp.com/" target="_blank" rel="noreferrer">
+                                    <img src="https://i.imgur.com/VKnPwLv.png" alt="Final Project" className="circles"
                                         height={150}
                                         width={350}
                                     />
